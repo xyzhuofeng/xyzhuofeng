@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: '玄钺斫峰-森林书'
+subtitle: '森林会记住一切'
 description: ''
 keywords:
-author: John Doe
+author: 玄钺斫峰
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -102,4 +102,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: 'git'
+    repo: git@github.com:xyzhuofeng/xyzhuofeng.github.io.git
+    branch: ['gh-pages']
+#    message: ['自动部署']
+#  - type: 'git'
+#    repo:
+
