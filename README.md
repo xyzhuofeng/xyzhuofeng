@@ -46,4 +46,22 @@ https://gitee.com/xyzhuofeng/techbook
 - 直接把文章内容做成视频并发布，尤其是用AI配音把别人文章读一遍的营销号，这里不欢迎你。
 - 进行未经授权的商业行为，例如贩卖文章内容，复制到自己博客后开启付费阅读等行为。
 
+## 博客仓库克隆
 
+```shell
+git clone git@gitee.com:xyzhuofeng/xyzhuofeng.git xyzhuofeng
+cd xyzhuofeng
+
+git submodule init
+git submodule update
+```
+
+本地预览
+```shell
+hexo s
+```
+
+自动部署到Github
+```shell
+hexo d
+```
